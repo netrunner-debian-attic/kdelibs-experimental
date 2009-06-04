@@ -1,0 +1,49 @@
+This package was debianized by George Kiagiadakis <gkiagiad@csd.uoc.gr> on
+Thu, 04 Jun 2009 19:46:50 +0300.
+
+It was downloaded from ftp://ftp.kde.org
+
+Upstream Author:
+
+    Marco Martin <notmart@gmail.com>
+
+Copyright:
+
+    Copyright: © 2009 Marco Martin <notmart@gmail.com>
+
+License:
+
+    License for all components unless stated otherwise:
+    --
+    GNU General Public License, version 2 or later (GPL-2+)
+        However, the license of 7 files was not explicitly specified:
+
+        *
+        ? knotificationitem/CMakeLists.txt
+        knotificationitem/cmake/*
+        knotificationitem/cmake/modules/*
+
+    On Debian systems, the complete text of the
+    GNU General Public License version 2 can be found in
+    /usr/share/common-licenses/GPL-2
+    --
+
+    Other used licenses:
+    --
+    GNU Library General Public License, version 2 or later (LGPL-2+)
+        8 files are licensed under this license:
+
+        knotificationitem/* excluding:
+        -? knotificationitem/CMakeLists.txt
+        knotificationitem/test/*
+
+    On Debian systems, the complete text of the
+    GNU Library General Public License version 2 can be found in
+    /usr/share/common-licenses/LGPL-2
+    --
+
+The Debian packaging is:
+
+    Copyright (C) 2009 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+and is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

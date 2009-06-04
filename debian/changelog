@@ -1,0 +1,5 @@
+kdelibs-experimental (4:4.2.90-0r1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Jun 2009 00:55:58 +0300
