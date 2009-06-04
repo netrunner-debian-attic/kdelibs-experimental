@@ -3,13 +3,13 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), kdelibs5-dev (>= 4:4.2.90), pkg-kde-tools (>= 0.4.2)
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), kdelibs5-dev (>= 4:4.2.90), pkg-kde-tools (>= 0.4.2), quilt
 Standards-Version: 3.8.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs-experimental
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs-experimental
 
-Package: libknotificationitem-1
+Package: libknotificationitem-1-1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: libknotificationitem-1
@@ -18,7 +18,7 @@ Description: libknotificationitem-1
 Package: libknotificationitem-1-dev
 Section: libdevel
 Architecture: any
-Depends: libknotificationitem-1 (= ${binary:Version}), ${misc:Depends}
+Depends: libknotificationitem-1-1 (= ${binary:Version}), ${misc:Depends}
 Description: Development headers for libknotificationitem-1
  <insert long description, indented with spaces>
 
@@ -26,6 +26,6 @@ Package: libknotificationitem-1-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: libknotificationitem-1 (= ${binary:Version}), kdelibs5-dbg, ${misc:Depends}
+Depends: libknotificationitem-1-1 (= ${binary:Version}), kdelibs5-dbg, ${misc:Depends}
 Description: Debug symbols for libknotificationitem-1
  <insert long description, indented with spaces>

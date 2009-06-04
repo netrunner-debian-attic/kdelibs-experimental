@@ -1,4 +1,5 @@
 usr/include/knotificationitem-1/knotificationitem.h
 usr/include/knotificationitem-1/knotificationitem_export.h
+usr/lib/libknotificationitem-1.so
 usr/share/dbus-1/interfaces/org.kde.NotificationItem.xml
 usr/share/dbus-1/interfaces/org.kde.NotificationItemWatcher.xml
