@@ -6,3 +6,4 @@ DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime
 
 include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/patchsys-quilt.mk
