@@ -1,3 +1,9 @@
+kdelibs-experimental (4:4.2.98-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 16:44:09 +0200
+
 kdelibs-experimental (4:4.2.95+svn991035-1) experimental; urgency=low
 
   * Initial release.
