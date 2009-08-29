@@ -3,4 +3,6 @@
 DEB_DBG_PACKAGE_libknotificationitem-1 := libknotificationitem-1-dbg
 DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xkdebase-runtime
 
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
