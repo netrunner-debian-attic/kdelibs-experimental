@@ -1,8 +1,8 @@
-kdelibs-experimental (4:4.3.2-0r1) UNRELEASED; urgency=low
+kdelibs-experimental (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 02 Oct 2009 23:42:37 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Oct 2009 15:36:59 +0200
 
 kdelibs-experimental (4:4.3.1-1) unstable; urgency=low
 
