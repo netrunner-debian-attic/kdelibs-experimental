@@ -1,3 +1,9 @@
+kdelibs-experimental (4:4.3.3-r01) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Lukasz Janyst <janyst@gmail.com>  Sun, 09 Nov 2009 01:35:45 +0100
+
 kdelibs-experimental (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
