@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.2.3), quilt, pkg-kde-tools (>= 
  kdelibs5-dev (>= 4:4.3.4)
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs-experimental
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdelibs-experimental/#_trunk_packages_kdelibs-experimental_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdelibs-experimental
 
 Package: libknotificationitem-1-1
